@@ -1,0 +1,32 @@
+.card {
+    margin-left: 40pt;
+    border: 1px solid rgba(247, 178, 173, 1);
+    background: rgba(240, 225, 0, 1);
+    
+}
+.item-list {
+    display: inline-block;
+    padding: 30px;
+    
+}
+
+.card-text {
+    max-width: 260px;
+    font-family: Chalkduster,fantasy;
+    text-shadow: 2px 2px  gray ;
+}
+
+.list-item-1 {
+font-family: Chalkduster,fantasy;
+text-align: center;
+font-size: 50pt;
+padding-top: 100px;
+padding-bottom: 60px;
+overflow-y: scroll;
+}
+.list-group-item {
+    color: rgba(51, 50, 50, 1);
+    border: 2px solid #009DAF;
+    background-color: rgba(232, 238, 242, 1);
+    font-family: Chalkduster,fantasy;
+}

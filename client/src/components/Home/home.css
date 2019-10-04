@@ -1,0 +1,38 @@
+p {
+    
+	width: fit-content;
+	margin-left: 10px;
+}
+
+body {
+	background-color: #050609;
+	
+}
+
+.header-drip {
+    font-family: Chalkduster,fantasy;
+    color: #009DAF;
+	padding: 50px;
+	margin-left: 33%;
+}
+
+
+h1{
+	text-align: center;
+	width: fit-content;
+	margin-left: 50px;
+}
+
+#picArt {
+width: 100px;
+height: 1000px;
+
+}
+
+.carousel-inner {
+	height: 1000px;
+	width: 1000px;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}

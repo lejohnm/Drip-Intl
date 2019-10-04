@@ -1,0 +1,77 @@
+.col {
+    padding: 30px;
+    width: 500px;
+    font-family: Chalkduster,fantasy;
+}
+
+.form-email {
+    
+        padding: 30px;
+        width: 500px;
+        font-family: Chalkduster,fantasy;
+}
+.form-control {
+    border-bottom: 5px solid #009DAF;
+
+}
+
+    
+
+
+.form-group {
+    /* display: block; */
+    padding: 30px;
+    font-family: Chalkduster,fantasy;
+    color: #009DAF;
+    
+}
+
+
+h1 {
+    font-family: Chalkduster,fantasy;
+    
+}
+
+
+.btn {
+    margin: 30px;
+    
+}
+.contacth1 {
+    text-align: center;
+    color: #009DAF;
+    padding: 35px;
+    margin-left: 33%;
+}
+
+.commentBoxes {
+    display: block;
+    align-content: center;
+    
+   
+}
+
+
+div li {
+ list-style-type: none;
+ 
+}
+
+
+.input-text-contact {
+color: #F0E100;
+}
+
+
+.contact-boxes {
+    margin-left: 30%;
+}
+
+.container-form {
+    display: table;
+    width: 60%;
+   border: solid #F0E100 5px;
+    padding: 50px;
+    margin: 80px;
+  
+}

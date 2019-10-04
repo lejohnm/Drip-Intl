@@ -1,0 +1,10 @@
+"https://pbs.twimg.com/media/EBS5wlDXsAAJyxl?format=jpg&name=large"
+
+
+"https://pbs.twimg.com/media/ECS9TyhXoAIwy-7?format=jpg&name=4096x4096" class="d-block w-100" id="picArt"
+
+
+"https://pbs.twimg.com/media/EFPUnmKW4AAbRZN?format=jpg&name=4096x4096" class="d-block w-100"
+
+
+//styles
