@@ -1,0 +1,9 @@
+.then(products => this.setState({ products }, () => products))
+
+
+/line 1/import React from 'react';
+
+
+/line 9/  class Product extends React.Component {
+
+    /line

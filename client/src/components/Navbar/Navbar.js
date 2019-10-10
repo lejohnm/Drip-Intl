@@ -50,27 +50,23 @@ function Navbar(props) {
            >
               <li>
                 Shop
-                  </li>
-            </Link>
-          </ul>
-
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <div className="dropdown-menu" aria-labelledby="navbarDropdown">
             <a className="list-group-item" href="#tops" onClick={() => props.onChange('tops')}>Tops</a>
             <a className="list-group-item" href="#bottoms" onClick={() => props.onChange('bottoms')}>Bottoms</a>
             <a className="list-group-item" href="#shoes" onClick={() => props.onChange('shoes')}>Shoes</a>
           </div>
+          </li>
+            </Link>
+          </ul>
 
+          
 
 
 
         </div>
       </nav>
 
-      {/* <div id="list-example" className="list-group">
-        <a className="list-group-item" href="#tops" onClick= {()=> props.onchange('tops')}>Tops</a>
-        <a className="list-group-item" href="#bottoms" onClick= {()=> props.onchange('bottoms')}>Bottoms</a>
-        <a className="list-group-item" href="#shoes" onClick= {()=> props.onchange('shoes')}>Shoes</a>
-      </div> */}
+    
     </div>
 
   );

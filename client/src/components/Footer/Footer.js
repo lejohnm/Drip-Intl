@@ -1,4 +1,6 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
 
 function Footer() {
   return (
@@ -14,9 +16,7 @@ function Footer() {
                       INTL.
                 </span>
         </h1>
-            <p>Drip Intl. brought to you by Le'John McNeeley, created to bring the most high class streetwear for the right
-            prices
-            </p>
+            <p className="footer-text">DRIP INTL. BROUGHT TO YOU BY LE'JOHN McNEELEY, CREATED TO BRING YOU THE MOST HIGH CLASS STREETWEAR FOR THE RIGHT PRICE</p>
           <div className="conact">
             <span>
                 <i className="phone">
@@ -31,13 +31,18 @@ function Footer() {
       
           <br />
           
-          <ul class="icons">
-          <li><a href="https://twitter.com/home"><i class="fa fa-twitter"></i></a></li>
+          <ul className="icons">
+          <li><img src="https://i1.wp.com/www.transitionsta.org/wp-content/uploads/2016/12/twitter-black-round-icon.png?ssl=1" className="twitter"/></li>
           <div>
-            <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+            <li><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/instagram_circle_black-128.png" className="instagram"/></li>
           </div>
-            <li><a href="https://www.facebook.com/"><i class="fa fa-facebook-square"></i></a></li>
+            <li><img src="http://simpleicon.com/wp-content/uploads/facebook-2-256x256.png" className="facebook"/></li>
         </ul>
+      </div>
+
+
+      <div className="footer-image">
+        <img className="footer-image" src="https://pbs.twimg.com/media/ECb7PxiXUAAQQ8z?format=jpg&name=large"/>
       </div>
         <div className="footer-bottom">
           &copy; DRIP INTL. | Designed by Le'John McNeeley
