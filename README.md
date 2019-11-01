@@ -1,4 +1,9 @@
 # Drip-Intl
 
+# Info
+E-commerce site designed to display and sale clothing and shoes.
 
-E-commerce Site designed By Le'John McNeeley
+
+# Author
+Built and designed by Le'John McNeeley
+
