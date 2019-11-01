@@ -53,7 +53,7 @@ class Contact extends React.Component {
             //clears the form
             this.setState(initialState);
         }
-        const data = new FormData(event.target);
+        
         fetch('http://localhost:3002/api/contacts', {
             method: 'POST',
             body: JSON.stringify({
@@ -71,11 +71,11 @@ class Contact extends React.Component {
 <>
              <Navbar />
             
-            <form className="wholeInput">
+            <form action="https://formspree.io/mlejohn21@gmail.com" className="wholeInput">
                 <div class="container-form">
                     <div class="form-group">
                         <label for="exampleInputEmail1" value={this.state.contactName}>Name</label>
-                        <input class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Name" />
+                        <input class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Name" required/>
                         <small id="emailHelp" class="form-text text-muted">Don't leave this blank.</small>
                     </div>
 
@@ -89,7 +89,7 @@ class Contact extends React.Component {
 
                     <div class="form-group">
                         <label for="exampleInputEmail1" value={this.state.contactEmail}>Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required/>
                         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                     </div>
                     {/* error messgae email */}

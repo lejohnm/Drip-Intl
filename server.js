@@ -5,7 +5,7 @@ const cors = require('cors');
 require('dotenv').config();
 app.use(cors());
 
-const PORT = process.env.PORT || 3002;
+const PORT = process.env.PORT || 3003;
 
 app.use(express.json());
 
@@ -41,17 +41,10 @@ app.get('/api/products', (req, res) => {
 });
 
 
-app.get('/api/contacts', (req, res) => {   
-    connection.query('SELECT * from contacts', (err,data) => {
-        if (err) res.status(403).send(err);
-      res.send(data)
-    })
-    console.log('added to contacts')
 
-  });
 
-//LISTENER SET TO PORT 3002
-app.listen(3002, () => {
+//LISTENER SET TO PORT 3033
+app.listen(3003, () => {
     console.log(`Serving running on port ${PORT}.`);
 })
 

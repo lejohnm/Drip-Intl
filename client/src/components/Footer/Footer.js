@@ -32,17 +32,17 @@ function Footer() {
           <br />
           
           <ul className="icons">
-          <li><img src="https://i1.wp.com/www.transitionsta.org/wp-content/uploads/2016/12/twitter-black-round-icon.png?ssl=1" className="twitter"/></li>
+          <li><a href= "https://twitter.com/?logout=1572630120625"><img src="https://i1.wp.com/www.transitionsta.org/wp-content/uploads/2016/12/twitter-black-round-icon.png?ssl=1" alt= "alternate_id" className="twitter"/></a></li>
           <div>
-            <li><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/instagram_circle_black-128.png" className="instagram"/></li>
+            <li><a href="https://www.instagram.com/?hl=en"><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/instagram_circle_black-128.png" alt= "alternate_id" className="instagram"/></a></li>
           </div>
-            <li><img src="http://simpleicon.com/wp-content/uploads/facebook-2-256x256.png" className="facebook"/></li>
+            <li><a href="https://www.facebook.com/?stype=lo&jlou=AfdPjPoCjgg5I_sE4NSu4o_3SuuhhbRdV-kc4tyvhYnpRvE-WaYVehxj2kuszkW9T6YiwgWlXe5kHC0plHal61QkA7k_C0_PLA5Qr80hk3VieQ&smuh=64183&lh=Ac-dQZ6gG7BfTTfO"><img src="http://simpleicon.com/wp-content/uploads/facebook-2-256x256.png" alt= "alternate_id" className="facebook"/></a></li>
         </ul>
       </div>
 
 
       <div className="footer-image">
-        <img className="footer-image" src="https://pbs.twimg.com/media/ECb7PxiXUAAQQ8z?format=jpg&name=large"/>
+        <img alt= "alternate_id" className="footer-image" src="https://pbs.twimg.com/media/ECb7PxiXUAAQQ8z?format=jpg&name=large"/>
       </div>
         <div className="footer-bottom">
           &copy; DRIP INTL. | Designed by Le'John McNeeley

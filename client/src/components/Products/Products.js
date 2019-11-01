@@ -21,13 +21,13 @@ class Product extends React.Component {
 
 
     componentDidMount() {
-        fetch('http://localhost:3002/api/products')
+        fetch('http://localhost:3003/api/products')
             .then(response => response.json())
             .then(products => {
                 console.log(products)
                 this.setState({ products })
             })
-        //console.log(this.state.products)
+        console.log(this.state.products)
     }
 
 

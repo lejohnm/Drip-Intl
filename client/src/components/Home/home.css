@@ -30,8 +30,8 @@ height: 1000px;
 }
 
 .carousel-inner {
-	height: 1000px;
-	width: 1000px;
+	/* height: 1000px;
+	width: 1000px; */
 	display: block;
 	margin: 0 auto;
 	padding-bottom: 20px;
