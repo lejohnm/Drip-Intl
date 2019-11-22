@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Route, Link } from "react-router-dom";
 
 
 
@@ -37,27 +37,23 @@ function Navbar(props) {
 
 
 
-            <Link className="nav-link" to="/contact">
-              <li className="nav-item">Contact</li>
-            </Link>
-
-
-
 
             <Link
               className="nav-link"
               to="/products"
            >
+             <ul>
               <li>
                 Shop
-                   <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a className="list-group-item" href="#tops" onClick={() => props.onChange('tops')}>Tops</a>
-            <a className="list-group-item" href="#bottoms" onClick={() => props.onChange('bottoms')}>Bottoms</a>
-            <a className="list-group-item" href="#shoes" onClick={() => props.onChange('shoes')}>Shoes</a>
-          </div>
-          </li>
-            </Link>
+          </li> 
           </ul>
+            </Link>
+          <ul>
+            <Link className="nav-link" to="/login">
+              <li className="nav-item">Admin</li>
+            </Link>
+         </ul>
+         </ul>
 
           
 

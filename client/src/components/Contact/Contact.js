@@ -71,7 +71,7 @@ class Contact extends React.Component {
 <>
              <Navbar />
             
-            <form action="https://formspree.io/mlejohn21@gmail.com" className="wholeInput">
+            <form className="wholeInput">
                 <div class="container-form">
                     <div class="form-group">
                         <label for="exampleInputEmail1" value={this.state.contactName}>Name</label>

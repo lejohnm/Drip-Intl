@@ -182,27 +182,7 @@ overflow-y: scroll;
   font-family: Chalkduster,fantasy;
 }
 
-.form-email {
-  
-      padding: 30px;
-      width: 500px;
-      font-family: Chalkduster,fantasy;
-}
-.form-control {
-  border-bottom: 5px solid #009DAF;
 
-}
-
-  
-
-
-.form-group {
-  /* display: block; */
-  padding: 30px;
-  font-family: Chalkduster,fantasy;
-  color: #009DAF;
-  
-}
 
 
 h1 {
@@ -236,19 +216,9 @@ list-style-type: none;
 }
 
 
-.input-text-contact {
-color: #F0E100;
-}
-
-
-.contact-boxes {
-  margin-left: 30%;
-}
-
 #picArt {
  padding: 50px;
- /* width: 100px;
-  height: 1000px; */
+
   
 }
 
@@ -287,12 +257,6 @@ color: #F0E100;
   margin: 80px;
   text-align: center;
 
-}
-
-.wholeInput {
-  display: flex;
-  justify-content: center;
- 
 }
 
 .card {
@@ -399,4 +363,75 @@ button {
   border: solid 1px #F0E100;
   border-radius: 50%;
   margin-bottom: 50px;
+}
+
+
+
+.piece {
+  color: #009DAF;
+  text-align: center;
+  padding: 13px;
+  font-size: 10pt;
+}
+
+.adminTable {
+    width: 100%;
+    justify-content: space-between;
+    padding: 50PX;
+}
+
+table {
+  display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 50PX;
+}
+
+.labels {
+  text-align: center;
+  padding: 10px;
+  color: #6c757d!important;
+}
+
+.item-container {
+  border: 1px solid rgba(240, 225, 0, 1);
+  display: flex;
+  padding: 10px;
+}
+
+.delete-button {
+  background: #009DAF;
+  border-radius: 5px;
+  border: none;
+color: white;
+}
+
+.delete-button:hover {
+  background: red;
+}
+
+.header-admin {
+  padding-top: 100px;
+  width: 100%;
+  color: #009DAF;
+}
+
+.log-in {
+  padding-top: 100px;
+  width: 100%;
+  color: #009DAF;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  border: solid 1px #F0E100;
+}
+
+.form-box {
+  padding: 20px;
+}
+
+.form-control {
+  border-bottom: 5px solid #09d3ac;
 }
