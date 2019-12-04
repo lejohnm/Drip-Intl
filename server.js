@@ -80,9 +80,9 @@ app.delete('/api/products', (req, res) => {
     connection.query('DELETE FROM ecommerce')
 })
 
-// app.use('*', (req, res) => {
-//     res.sendFile(`${__dirname}/client/build/index.html`)
-// })
+app.use('*', (req, res) => {
+    res.sendFile(`${__dirname}/client/build/index.html`)
+})
 
 //LISTENER SET TO PORT 2702
 app.listen(PORT, () => {
