@@ -71,9 +71,9 @@ app.get('/api', (req, res) => {
     res.json({ message: "Hello" })
 })
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/serviceWorkerDemo", {
-  useNewUrlParser: true
-});
+// mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/serviceWorkerDemo", {
+//   useNewUrlParser: true
+// });
 
 
 app.delete('/api/products', (req, res) => {
