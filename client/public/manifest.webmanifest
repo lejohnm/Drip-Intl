@@ -1,0 +1,49 @@
+{
+  "short_name": "Drip Intl.",
+  "name": "Drip International",
+  "icons": [
+    {
+      "src": "https://pbs.twimg.com/media/EBS5wlDXsAAJyxl?format=jpg&name=large",
+      "sizes": "100%x900",
+      "type": "image/jpg"
+    },
+    {
+      "src": "https://pbs.twimg.com/media/ECS9TyhXoAIwy-7?format=jpg&name=4096x4096",
+      "type": "image/jpg",
+      "sizes": "100%x900"
+    },
+    {
+      "src": "https://pbs.twimg.com/media/EFPUnmKW4AAbRZN?format=jpg&name=4096x4096",
+      "type": "image/jpg",
+      "sizes": "100%x900"
+    },
+    {
+      "src": "https://i1.wp.com/www.transitionsta.org/wp-content/uploads/2016/12/twitter-black-round-icon.png?ssl=1",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "https://cdn3.iconfinder.com/data/icons/free-social-icons/67/instagram_circle_black-128.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "https://simpleicon.com/wp-content/uploads/facebook-2-256x256.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "https://pbs.twimg.com/media/ECb7PxiXUAAQQ8z?format=jpg&name=large",
+      "type": "image/jpg",
+      "sizes": "143x143"
+    }
+  ],
+  "start_url": "/index.html",
+  "scope": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "lang": "en-US",
+  "dir": "ltr",
+  "orientation": "portrait-primary"
+}

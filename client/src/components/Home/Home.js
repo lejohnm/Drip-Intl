@@ -11,8 +11,10 @@ class Home extends React.Component {
         <Navbar />
         <div>
           <div className='header-container'>
+            {/* <span className= "logocontainer"> */}
             <span className="drip-header1">DRIP</span>
             <span className="drip-header2">INTL.</span>
+            {/* </span> */}
           </div>
           <div className="titlespace"></div>
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">

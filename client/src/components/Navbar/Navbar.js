@@ -48,11 +48,6 @@ function Navbar(props) {
           </li> 
           </ul>
             </Link>
-          <ul>
-            <Link className="nav-link" to="/login">
-              <li className="nav-item">Admin</li>
-            </Link>
-         </ul>
          </ul>
 
           

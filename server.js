@@ -1,10 +1,12 @@
 const express = require('express')
-const usersRoute = require('./routes/index.js')
 const app = express();
-const mysql = require("mysql");
+const mongojs = require('mongojs')
 const cors = require('cors');
 require('dotenv').config();
 const mongoose = require('mongoose')
+const dbName = 'Products'
+const collection = ['products']
+const db = mongojs(dbName, collection)
 let uri = '';
 app.use(cors());
 
@@ -30,11 +32,27 @@ mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true }, (err)
 //get products
 app.get('/api/products', (req, res) => {
     //PULL IN PRODUCTS
-    connection.query("SELECT * FROM products", (err, data) => {
-        if (err) res.status(403).send(err);
-        res.json(data)
+    db.products.find({}, (err, found) => {
+        if(err) {
+            console.log(err)
+        } else {
+            res.json(found)
+        }
     })
 });
+
+
+app.get('/api/admin', (req, res) => {
+    //PULL IN PRODUCTS
+    db.products.find({}, (err, found) => {
+        if(err) {
+            console.log(err)
+        } else {
+            res.json(found)
+        }
+    })
+});
+
 
 
 //get contacts
@@ -53,8 +71,9 @@ app.get('/api', (req, res) => {
     res.json({ message: "Hello" })
 })
 
-///
-app.use('/api/users', usersRoute);
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/serviceWorkerDemo", {
+  useNewUrlParser: true
+});
 
 
 app.delete('/api/products', (req, res) => {
